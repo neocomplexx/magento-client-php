@@ -35,7 +35,7 @@ class RequestToken extends Token
     /**
      * @param string $path
      *
-     * @return Guzzle\Http\Url
+     * @return \Guzzle\Http\Url
      */
     public function getAuthUrl($path)
     {
@@ -46,7 +46,7 @@ class RequestToken extends Token
     }
 
     /**
-     * @return Guzzle\Http\Url
+     * @return \Guzzle\Http\Url
      */
     public function getCustomerAuthUrl()
     {
@@ -54,7 +54,7 @@ class RequestToken extends Token
     }
 
     /**
-     * @return Guzzle\Http\Url
+     * @return \Guzzle\Http\Url
      */
     public function getAdminAuthUrl()
     {
